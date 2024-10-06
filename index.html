@@ -2,17 +2,42 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Esta página fue desplegada automáticamente usando GitHub Actions y Surge.sh">
     <title>Mi Página en Surge</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding-top: 50px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #0056b3;
+        }
+
+        p {
+            font-size: 1.2em;
+            max-width: 600px;
+            line-height: 1.6;
         }
     </style>
 </head>
 <body>
-    <h1>¡Hola, Mundo!</h1>
-    <p>Esta es una página desplegada automáticamente con GitHub Actions y Surge.sh.</p>
+    <main>
+        <section>
+            <h1>¡Hola, Mundo!</h1>
+            <p>Esta es una página desplegada automáticamente con <strong>GitHub Actions</strong> y <strong>Surge.sh</strong>.</p>
+        </section>
+    </main>
 </body>
 </html>
